@@ -51,31 +51,96 @@ header{
   height: 100px;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(247, 241, 241);
+  background-color: burlywood;
 }
 
 .main-first{
   height: 300px;
   background-image: url(./img/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg);
-  background-position: bottom;
+  background-position: center;
+  color: white;
+  text-align: center;
 }
 
 .card1img{
-  height: 300px;
-  width: 300px;
+  
+  width: 400px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card1:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card2img{
-  height: 300px;
-  width: 300px;
+ 
+  width: 400px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card3img{
-  height: 300px;
-  width: 300px;
+  
+  width: 400px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card3:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .cards{
+  
+  
+  padding: 2px 16px;
   display: flex;
   justify-content: space-around;
+
 }
+
+.about{
+  height: 300px;
+  background-image: url(./img/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg);
+  background-position: bottom;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#dani{
+  height: 200px;
+}
+
+.about-img{
+ 
+}
+
+footer{
+  height: 150px;
+  background-color: rgb(168, 135, 92);
+  display: flex;
+  padding-left: 100px;
+  color: white;
+ }
+
+ body{
+  background-color: rgb(238, 200, 150);
+ }
