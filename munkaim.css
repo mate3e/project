@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(238, 200, 150);
+   }
+
+   /* Nav és logo */
+
+   li {
+    display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: larger;
+    margin-right: 10px;
+  }
+  
+  ul{
+    float: right;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  svg{
+    width: 15px;
+    height: 15px;
+     
+    }
+  
+  #logo{
+    width: 100px;
+    height: 80px;
+    padding-top: 10px;
+  }
+  
+  header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+  }
+
+  /* Képek */
+
+  h1{
+    text-align: center;
+
+  }
+
+  .imgs{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .imgs img{
+    width: 400px;
+    height: 400px;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+
+  /* Footer */
+
+  footer{
+    height: 150px;
+    background-color: rgb(168, 135, 92);
+    display: flex;
+    padding-left: 100px;
+    color: white;
+   }

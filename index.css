@@ -54,6 +54,8 @@ header{
   background-color: burlywood;
 }
 
+/* Nav és header idáig */
+
 .main-first{
   height: 500px;
   background-image: url(./img/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg);
@@ -140,6 +142,8 @@ header{
 .about-img{
  
 }
+
+/* Footer */
 
 footer{
   height: 150px;
