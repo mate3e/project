@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajanlatkeres.css">
+    <title>Kapcsolat</title>
+</head>
+<body>
+    <header>
+        <img src="./img/Dani_elektro.png" alt="" id="logo">
+    
+    <nav>
+        <div class="nav">
+            <ul>
+                <li>Főoldal</li>
+                <li class="legordul">
+                    <div class="dropdown">
+                    <p class="dropbtn"> Szolgáltatások<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
+                        <path d="M16.9,9.2c-0.4-0.4-1-0.4-1.4,0L12,12.7L8.5,9.2c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l4.2,4.2c0.2,0.2,0.4,0.3,0.7,0.3c0.3,0,0.5-0.1,0.7-0.3l4.2-4.2C17.3,10.2,17.3,9.6,16.9,9.2z"></path></svg>
+                    </p>
+                    
+                    <div class="dropdown-content">
+                      <a href="#">Épületvillamosság</a>
+                      <a href="#">Víz/Fűtés</a>
+                      <a href="#">Elektromos kisgépek</a>
+                      <a href="#">Otthoni térfigyelő</a>
+                    </div>
+                    </div>
+                </li>
+                <li>Rólam</li>
+                <li>Munkáim</li>
+
+                <li id="jobbszel">Elérhetőség</li>
+            </ul>
+            </div>
+    </nav>
+</header>
+<div class="keret">
+    <form action="ajanlatkeres.html">
+        <h1>Ajánlatkérés</h1>
+        <p>Ha az itt olvasottak és látottak alapján úgy gondolod, hogy szívesen bíznál meg, akkor ne habozz,<br> kérj ajánlatot, vagy írj e-mailt az szabo.danielev@info.com címre!</p>
+        <label for="nev">Név</label>
+        <div class="nev">
+            <input type="text" name="nev" id="nev">
+        </div>
+        <label for="email">E-mail</label>
+        <div class="email">
+            <input type="email" name="email" id="email">
+        </div>
+        <label for="szolg">Szolgáltatás</label>
+        <div class="szolg">
+            <select name="szolg" id="szolg">
+                <option value="villamos">Épületvillamosság</option>
+                <option value="viz">Víz/Fűtés</option>
+                <option value="gep">Elektromos kisgépek</option>
+                <option value="kamera">Otthoni térfigyelő</option>
+            </select>
+        </div>
+        <label for="szoveg">Írj néhány mondatot a projektről!</label>
+        <div class="szoveg">
+            <textarea name="szoveg" id="szoveg" cols="30" rows="10"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit"> Elküldöm</button>
+        </div>
+    </form>
+</div>
+    <footer>
+        <div class="aboutus">
+            <p>© 2024 Szabó Dániel e.v. Minden jog fenntartva</p>
+            <p>Impresszum | Adatkezelési tájékoztató | ÁSZF</p>
+        </div>
+      
+    </footer>
+
+</body>
+</html>
