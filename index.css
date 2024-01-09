@@ -54,6 +54,16 @@ header{
   background-color: rgb(219, 219, 219);
 }
 
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 936px) {
   li{
     font-size: medium;

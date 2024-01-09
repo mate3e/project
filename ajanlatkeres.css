@@ -1,7 +1,11 @@
 body{
     background-image: url(img/fre-sonneveld-q6n8nIrDQHE-unsplash.jpg);
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+nav{
+  margin-top: 20px;
+ }
 
 li {
     display: inline;
@@ -15,36 +19,6 @@ li {
   ul{
     float: right;
   }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  
-  svg{
-    width: 15px;
-    height: 15px;
-     
-    }
   
   #logo{
     width: 100px;
@@ -58,6 +32,16 @@ li {
     display: flex;
     justify-content: space-around;
     background-color: rgb(219, 219, 219);
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
   }
   
   @media screen and (max-width: 950px) {
