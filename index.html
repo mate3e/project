@@ -48,7 +48,7 @@
     </div>
     <div class="cards">
         <div class="card1" id="card1">
-            <img src="./img/elektro.jpg" alt="" class="card1img">
+            <img src="./img/elektro.jpg" alt="" id="elso" class="card1img" onclick="changeImage(elso)">
             <h2>Épületvillamosság szerelés</h2>
             <p>
                 Ha szeretne biztosra menni villamossági rendszere megbízható és folyamatos működésében, akkor kérjen mint szakértő! 
@@ -56,7 +56,7 @@
         </div>
 
         <div class="card2" id="card2">
-            <img src="img/viz.jpg" alt="" class="card2img"> <!-- Víz, fűtés -->
+            <img src="img/viz.jpg" alt="" id="masodik" class="card2img" onclick="changeImage2(masodik)"> <!-- Víz, fűtés -->
             <h2>Víz/Fűtés szerelés</h2>
             <p>
                 Lakások, családi házak és üzlethelyiségek vízszerelése, fűtésszerelése, több mint 20 év tapasztalattal a lakosság számára. A kisebb munkákat (csaptelepek cseréje, radiátorcsere) is rám bízhatja.
@@ -64,7 +64,7 @@
         </div>
 
         <div class="card3" id="card3">
-            <img src="img/bojler.jpg" alt="" class="card3img"> <!-- Otthoni térfigyelő -->
+            <img src="img/bojler.jpg" alt="" id="harmadik" class="card3img" onclick="changeImage3(harmadik)"> <!-- Otthoni térfigyelő -->
             <h2>Vízmelegítő karbantartása</h2>
             <p>
                 Villanybojler rendszeres karbantartása a hét minden bármikor. Ha szeretné megelőzni a problémát, szakemberrel rendszeresen végeztesse el a karbantartási feladatokat.
@@ -72,6 +72,24 @@
         </div>
 
     </div>
+
+    <script>
+        function changeImage(elso) {
+        elso.src = "img/elektro2.jpg";
+    }
+    </script>
+
+<script>
+    function changeImage2(masodik) {
+    masodik.src = "img/viz2.jpg";
+}
+</script>
+
+<script>
+    function changeImage3(harmadik) {
+    harmadik.src = "img/bojler2.jpg";
+}
+</script>
 
     <div class="about">
         <h2 id="about">Rólam</h2>
@@ -108,6 +126,8 @@
             <p>Impresszum | Adatkezelési tájékoztató | ÁSZF</p>
         </div>
     </footer>
+
+    
 
 </body>
 </html>
