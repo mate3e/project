@@ -38,7 +38,7 @@ li {
     text-decoration: none;
   }
   
-  a:visited {
+  a:visited, a:link {
     color: black;
     background-color: transparent;
     text-decoration: none;
